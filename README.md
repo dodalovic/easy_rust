@@ -8176,7 +8176,7 @@ error[E0412]: cannot find type `WorldsBestType` in this scope
 
 ## Rc
 
-Rc means "reference counter". You know that in Rust, every variable can only have one owner. That is why this doesn't work:
+Rc means "reference counted". You know that in Rust, every variable can only have one owner. That is why this doesn't work:
 
 ```rust
 fn takes_a_string(input: String) {
